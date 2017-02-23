@@ -1,0 +1,19 @@
+languageCode = "en-us"
+title = "Diary"
+
+[params]
+  sitename = "Diary"
+  author = "Yuichi Watanabe"
+
+[[menu.main]]
+    name = "About"
+    url  = ""
+[[menu.main]]
+    name = "Facebook"
+    url  = "https://www.facebook.com/profile.php?id=100006205456811"
+[[menu.main]]
+    name = "Github"
+    url  = "https://github.com/vvatanabe"
+[[menu.main]]
+    name = "Twitter"
+    url  = "https://twitter.com/vvatanabe_ja"
