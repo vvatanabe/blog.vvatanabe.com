@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/post/2017/02/23/how-to-set-up-the-hugo/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/post/2017/02/23/about-my-fathers-barthday-party/</loc>
+    <lastmod>2017-02-23T22:10:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/tags/birthday/</loc>
+    <lastmod>2017-02-23T22:10:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/tags/blog/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/tags/family/</loc>
+    <lastmod>2017-02-23T22:10:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/tags/hugo/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/post/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/categories/private/</loc>
+    <lastmod>2017-02-23T22:10:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/categories/technology/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

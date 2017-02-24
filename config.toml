@@ -1,5 +1,10 @@
 languageCode = "en-us"
 title = "Diary"
+baseURL = "https://vvatanabe.github.io/diary"
+canonifyurls = true
+
+[permalinks]
+  post = "post/:year/:month/:day/:title/"
 
 [params]
   sitename = "Diary"
