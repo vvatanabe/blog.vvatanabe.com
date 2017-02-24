@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>https://vvatanabe.github.io/diary/post/2017/02/22/about-this-diary/</loc>
+    <lastmod>2017-02-22T10:56:12+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vvatanabe.github.io/diary/tags/birthday/</loc>
     <lastmod>2017-02-23T22:10:20+09:00</lastmod>
     <priority>0</priority>
@@ -20,11 +25,6 @@
   <url>
     <loc>https://vvatanabe.github.io/diary/tags/blog/</loc>
     <lastmod>2017-02-23T22:34:33+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://vvatanabe.github.io/diary/categories/</loc>
     <priority>0</priority>
   </url>
   
@@ -47,25 +47,19 @@
   </url>
   
   <url>
+    <loc>https://vvatanabe.github.io/diary/tags/introduce/</loc>
+    <lastmod>2017-02-22T10:56:12+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vvatanabe.github.io/diary/post/</loc>
     <lastmod>2017-02-23T22:34:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://vvatanabe.github.io/diary/categories/private/</loc>
-    <lastmod>2017-02-23T22:10:20+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://vvatanabe.github.io/diary/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://vvatanabe.github.io/diary/categories/technology/</loc>
-    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,8 +1,13 @@
 languageCode = "en-us"
 title = "Diary"
 baseURL = "https://vvatanabe.github.io/diary"
+theme = "hugo-black-and-light-theme"
 canonifyurls = true
 publishDir = "docs"
+disqusShortname = "vvatanabe"
+
+[taxonomies]
+tag = "tags"
 
 [permalinks]
   post = "post/:year/:month/:day/:title/"
@@ -13,7 +18,7 @@ publishDir = "docs"
 
 [[menu.main]]
     name = "About"
-    url  = ""
+    url  = "https://github.com/vvatanabe/diary/blob/master/README.md"
 [[menu.main]]
     name = "Facebook"
     url  = "https://www.facebook.com/profile.php?id=100006205456811"

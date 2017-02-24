@@ -59,6 +59,13 @@ $ git clone https://github.com/${user_id}/${repos_name}.git
 &lt;pre&gt;&lt;code&gt;$ hugo -t ${theme_name}
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;theme = &amp;quot;${theme_name}&amp;quot;　# Apply theme.
+canonifyurls = true # It&#39;s absolute path based on baseurl, not a relative path.
+publishDir = &amp;quot;${dir_path}&amp;quot; # Directory path to publish
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;Thanks!&lt;/p&gt;
 </description>
     </item>

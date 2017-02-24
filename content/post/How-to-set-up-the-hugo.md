@@ -54,6 +54,14 @@ $ hugo server -t ${theme_name} -w
 $ hugo -t ${theme_name}
 ```
 
+## Configuration
+
+```
+theme = "${theme_name}"　# Apply theme.
+canonifyurls = true # It's absolute path based on baseurl, not a relative path.
+publishDir = "${dir_path}" # Directory path to publish
+```
+
 Thanks!
 
 
