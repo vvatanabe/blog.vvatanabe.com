@@ -2,7 +2,7 @@
 date = "2017-02-23T22:10:20+09:00"
 title = "About my father's barthday party"
 draft = false
-categories = [ "private" ]
+categories = [ "Private" ]
 tags = [ "birthday", "family" ]
 +++
 
