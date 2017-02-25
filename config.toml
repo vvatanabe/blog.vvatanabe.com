@@ -7,6 +7,7 @@ publishDir = "docs"
 disqusShortname = "vvatanabe"
 
 [taxonomies]
+category = "categories"
 tag = "tags"
 
 [permalinks]
@@ -19,12 +20,24 @@ tag = "tags"
 [[menu.main]]
     name = "About"
     url  = "/post/2017/02/22/about-this-diary/"
+    Weight = 1
+[[menu.main]]
+    name = "Categories"
+    url  = "/categories/"
+    Weight = 2
+[[menu.main]]
+    name = "Tags"
+    url  = "/tags/"
+    Weight = 3
 [[menu.main]]
     name = "Facebook"
     url  = "https://www.facebook.com/profile.php?id=100006205456811"
+    Weight = 4
 [[menu.main]]
     name = "Github"
     url  = "https://github.com/vvatanabe"
+    Weight = 5
 [[menu.main]]
     name = "Twitter"
     url  = "https://twitter.com/vvatanabe_ja"
+    Weight = 6

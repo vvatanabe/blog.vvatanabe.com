@@ -46,7 +46,18 @@
   </url>
   
   <url>
+    <loc>https://vvatanabe.github.io/diary/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vvatanabe.github.io/diary/tags/childcare/</loc>
+    <lastmod>2017-02-25T18:05:08+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/categories/childcare/</loc>
     <lastmod>2017-02-25T18:05:08+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -82,7 +93,19 @@
   </url>
   
   <url>
+    <loc>https://vvatanabe.github.io/diary/categories/private/</loc>
+    <lastmod>2017-02-23T22:10:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vvatanabe.github.io/diary/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vvatanabe.github.io/diary/categories/technology/</loc>
+    <lastmod>2017-02-23T22:34:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
