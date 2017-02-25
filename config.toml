@@ -18,7 +18,7 @@ tag = "tags"
 
 [[menu.main]]
     name = "About"
-    url  = "https://github.com/vvatanabe/diary/blob/master/README.md"
+    url  = "/post/2017/02/22/about-this-diary/"
 [[menu.main]]
     name = "Facebook"
     url  = "https://www.facebook.com/profile.php?id=100006205456811"
