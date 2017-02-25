@@ -2,8 +2,8 @@
 date = "2017-02-23T22:34:33+09:00"
 title = "How to set up the hugo"
 draft = false
-categories = [ "Technology" ]
-tags = [ "Blog", "Hugo" ]
+categories = [ "technology" ]
+tags = [ "blog", "hugo" ]
 +++
 
 ## What's Hugo?

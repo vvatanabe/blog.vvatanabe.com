@@ -2,7 +2,7 @@
 date = "2017-02-25T18:05:08+09:00"
 title = "Misread"
 draft = false
-categories = [ "Childcare" ]
+categories = [ "diary" ]
 tags = [ "baby", "childcare", "backlog" ]
 +++
 

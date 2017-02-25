@@ -9,6 +9,7 @@ disqusShortname = "vvatanabe"
 [taxonomies]
 category = "categories"
 tag = "tags"
+series = "series"
 
 [permalinks]
   post = "post/:year/:month/:day/:title/"
@@ -24,20 +25,20 @@ tag = "tags"
 [[menu.main]]
     name = "Categories"
     url  = "/categories/"
-    Weight = 2
+    Weight = 101
 [[menu.main]]
     name = "Tags"
     url  = "/tags/"
-    Weight = 3
+    Weight = 102
 [[menu.main]]
     name = "Facebook"
     url  = "https://www.facebook.com/profile.php?id=100006205456811"
-    Weight = 4
+    Weight = 201
 [[menu.main]]
     name = "Github"
     url  = "https://github.com/vvatanabe"
-    Weight = 5
+    Weight = 201
 [[menu.main]]
     name = "Twitter"
     url  = "https://twitter.com/vvatanabe_ja"
-    Weight = 6
+    Weight = 203

@@ -1,0 +1,13 @@
+branches:
+  only:
+    - master
+language: go
+install:
+- go get -v github.com/spf13/hugo
+- sudo pip install awscli
+script:
+- hugo
+- aws s3 sync docs/ s3://vvatanabe --delete
+notifications:
+  email:
+    on_failure: always
