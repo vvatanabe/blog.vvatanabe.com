@@ -7,7 +7,7 @@ install:
 - sudo pip install awscli
 script:
 - hugo
-- aws s3 sync docs/ s3://vvatanabe --delete
+- aws s3 sync docs/ s3://vvatanabe --delete --acl public-read
 notifications:
   email:
     on_failure: always
