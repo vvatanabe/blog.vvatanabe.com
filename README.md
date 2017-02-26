@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vvatanabe/diary.svg?branch=master)](https://travis-ci.org/vvatanabe/diary)
+
 # About this diary
 
 Hi. I’m Yuichi Watanabe. Please call me Nabe. But why is my last name ends with “nabe?”
@@ -15,3 +17,13 @@ The contents are quite different from other blogs. Usually my topics are technol
 I believe Knowing about cultures in various countries will enrich our knowledge.
 
 Thanks!
+
+# Development
+
+```
+$ git clone --recursive https://github.com/vvatanabe/diary.git
+```
+
+```
+$ hugo server -D -w
+```
