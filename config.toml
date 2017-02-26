@@ -9,7 +9,6 @@ disqusShortname = "vvatanabe"
 [taxonomies]
 category = "categories"
 tag = "tags"
-series = "series"
 
 [permalinks]
   post = "post/:year/:month/:day/:title/"
@@ -18,27 +17,22 @@ series = "series"
   sitename = "Diary"
   author = "Yuichi Watanabe"
 
+[params.social]
+  Facebook = "vvatanabe.ja"
+  Github = "vvatanabe"
+  Twitter = "vvatanabe_ja"
+  Soundcloud = "vvatanabe"
+  Email = "yuichi.watanabe.ja@gmail.com"
+
 [[menu.main]]
     name = "About"
-    url  = "/post/2017/02/22/about-this-diary/"
+    url  = "/about/"
     Weight = 1
 [[menu.main]]
     name = "Categories"
     url  = "/categories/"
-    Weight = 101
+    Weight = 2
 [[menu.main]]
     name = "Tags"
     url  = "/tags/"
-    Weight = 102
-[[menu.main]]
-    name = "Facebook"
-    url  = "https://www.facebook.com/profile.php?id=100006205456811"
-    Weight = 201
-[[menu.main]]
-    name = "Github"
-    url  = "https://github.com/vvatanabe"
-    Weight = 201
-[[menu.main]]
-    name = "Twitter"
-    url  = "https://twitter.com/vvatanabe_ja"
-    Weight = 203
+    Weight = 3

@@ -1,9 +1,5 @@
 +++
-date = "2017-02-22T10:56:12+09:00"
-title = "About this diary"
 draft = false
-categories = [ "diary" ]
-tags = [ "introduce" ]
 +++
 
 Hi. I'm Yuichi Watanabe. Please call me Nabe.  But why is my last name ends with "nabe?”
