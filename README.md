@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/vvatanabe/diary.svg?branch=master)](https://travis-ci.org/vvatanabe/diary)
+[![Build Status](https://travis-ci.org/vvatanabe/diary.svg?branch=master)](https://travis-ci.org/vvatanabe/vvatanabe.com)
 
-# About this diary
+## vvatanabe.com
+
+## Introduce
 
 Hi. I’m Yuichi Watanabe. Please call me Nabe. But why is my last name ends with “nabe?”
 
@@ -21,7 +23,7 @@ Thanks!
 # Development
 
 ```
-$ git clone --recursive https://github.com/vvatanabe/diary.git
+$ git clone --recursive https://github.com/vvatanabe/vvatanabe.com.git
 ```
 
 ```

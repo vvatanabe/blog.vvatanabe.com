@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vvatanabe.com</title>
+    <link>https://vvatanabe.com/index.xml</link>
+    <description>Recent content on vvatanabe.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Feb 2017 23:08:17 +0900</lastBuildDate>
+    <atom:link href="https://vvatanabe.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Happy birthday to my Dad</title>
+      <link>https://vvatanabe.com/post/2017/02/26/happy-birthday-to-my-dad/</link>
+      <pubDate>Sun, 26 Feb 2017 23:08:17 +0900</pubDate>
+      
+      <guid>https://vvatanabe.com/post/2017/02/26/happy-birthday-to-my-dad/</guid>
+      <description>&lt;p&gt;We celebrated his birthday today. It’s the moment we’ve all been waiting for. We enjoyed small talks while eating Chinese dishes. We also drank a Chinese liquor named “Shao xing jiu” which tasted best with cube sugar in it.&lt;/p&gt;
+
+&lt;p&gt;He was very pleased when he saw the digital camera I gave him. My younger sister and her husband gave him a ticket. It was a trip to Kumamoto. He was very happy with all the birthday presents he received.&lt;/p&gt;
+
+&lt;p&gt;I hope my father will be able to capture happy moments using his digital camera especially when he travels.&lt;/p&gt;
+
+&lt;p&gt;I would like to thank everyone for celebrating this special event with us. I hope you all had a great time today.&lt;/p&gt;
+
+&lt;p&gt;To my father, I would like to say thank you for being such a great father to me and my sister. Thank you for all the sacrifices you have done for us. Thank you for showing so much love for our mother. Lastly, thank you for loving my wife as your own child as well. I hope you enjoyed your party and I wish you have more birthdays to come.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Misread</title>
+      <link>https://vvatanabe.com/post/2017/02/25/misread/</link>
+      <pubDate>Sat, 25 Feb 2017 18:05:08 +0900</pubDate>
+      
+      <guid>https://vvatanabe.com/post/2017/02/25/misread/</guid>
+      <description>&lt;p&gt;I was going to go to the maternity school today. That school give some tips for those who are how to take care of their baby. For example they teach them how to wash the baby, for husband to experience how to be pregnant, experience how to take care of the baby and so on. My wife and I are looking forward to this lecture.&lt;/p&gt;
+
+&lt;p&gt;We arrived at the school on time, but that school doors were close.&lt;/p&gt;
+
+&lt;p&gt;Why is it close?&lt;/p&gt;
+
+&lt;p&gt;My wife took out her iPhone and to confirm. Oops! I found that the schedule was different.&lt;/p&gt;
+
+&lt;p&gt;We regretted the lack of schedule management. However, regretting won&amp;rsquo;t solve problem. So I wrote this diary while I was at neighborhood cafe. I should manage some tasks related childcare with &amp;ldquo;Backlog&amp;rdquo; which is one of my company’s products. Hahaha.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Backlog will make your daily tasks easier and more enjoyable, and lead your team to more enthusiasm for smoother project success.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Please look at this: &lt;a href=&#34;https://backlogtool.com&#34;&gt;https://backlogtool.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hey baby. Don&amp;rsquo;t worry about it. I can assure you that taking a bath will turn out fine. Because I have a track record of keeping bathing for 30 years. Take it easy!&lt;/p&gt;
+
+&lt;p&gt;Thanks！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to set up the hugo</title>
+      <link>https://vvatanabe.com/post/2017/02/23/how-to-set-up-the-hugo/</link>
+      <pubDate>Thu, 23 Feb 2017 22:34:33 +0900</pubDate>
+      
+      <guid>https://vvatanabe.com/post/2017/02/23/how-to-set-up-the-hugo/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-s-hugo&#34;&gt;What&amp;rsquo;s Hugo?&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s a static site generator written in Golang. As a similar static site generator, Jekyll, Middleman, etc.
+There are 3 major reasons for choosing Hugo:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy installation.&lt;/li&gt;
+&lt;li&gt;Page generation is fast.&lt;/li&gt;
+&lt;li&gt;My colleague recommended it!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install-the-hugo&#34;&gt;Install the hugo.&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-a-site&#34;&gt;Create a site.&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new site ${site_name}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-some-theme&#34;&gt;Install some theme.&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/${user_id}/${repos_name}.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;post-articles&#34;&gt;Post articles.&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new ${article_name.md}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;preview-site&#34;&gt;Preview site.&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -t ${theme_name} -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;generate-a-page&#34;&gt;Generate a page.&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo -t ${theme_name}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;theme = &amp;quot;${theme_name}&amp;quot;　# Apply theme.
+canonifyurls = true # It&#39;s absolute path based on baseurl, not a relative path.
+publishDir = &amp;quot;${dir_path}&amp;quot; # Directory path to publish
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About my father&#39;s barthday party</title>
+      <link>https://vvatanabe.com/post/2017/02/23/about-my-fathers-barthday-party/</link>
+      <pubDate>Thu, 23 Feb 2017 22:10:20 +0900</pubDate>
+      
+      <guid>https://vvatanabe.com/post/2017/02/23/about-my-fathers-barthday-party/</guid>
+      <description>&lt;p&gt;My father turned 70 years old on Valentines Day because his birthday was February 14. I am planning to hold a birthday party for him this Sunday. The venue will be at a Chinese Restaurant located in Tenzin. The food in that restaurant is very delicious.
+My wife and I have been there 3 months ago. I thought that the food and the service were really good and I was impressed. I reserved a private room.  The number of attendees allowed in that room is 7 including me. My parents, younger sister, brother in law, niece and my wife will be there. I will give a digital camera as a surprise gift for my father.
+That camera can be used easily even by older. Because the screen is large and there are few buttons and functions. It’s very simple. And My child will be born in April so I would like my father to take pictures of my child. I am looking forward to that day.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vvatanabe.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvatanabe.com/about/</guid>
+      <description>&lt;p&gt;Hi. I&amp;rsquo;m Yuichi Watanabe. Please call me Nabe.  But why is my last name ends with &amp;ldquo;nabe?”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;My work is a Software Engineer. There are many foreigners in our company. For example, Taiwanese, Indonesians, Swiss, Germans, Americans, Canadians and so on. Lucky to have such great members. I enjoyed developing a products with my colleagues. I need to use English at work. We usually use English and Japanese languages in communicating with each other in our workplace.&lt;/p&gt;
+
+&lt;p&gt;But I have a problem.  I&amp;rsquo;m not good in English.&lt;/p&gt;
+
+&lt;p&gt;I can do a little reading and writing using English. However, particularly speaking and listening are my weak points.&lt;/p&gt;
+
+&lt;p&gt;So, I’ve started writing a blog in English!&lt;/p&gt;
+
+&lt;p&gt;The contents are quite different from other blogs. Usually my topics are technology, work, Japanese sake, sumo wrestling, music, daily life activities and so on. If I make mistakes in my English, please pardon me. If you are an engineer, would you give me a pull request on Github please? I would like to communicate enjoyably with my colleagues using English as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;I believe Knowing about cultures in various countries will enrich our knowledge.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

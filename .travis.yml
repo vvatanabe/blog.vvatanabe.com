@@ -4,10 +4,10 @@ branches:
 language: go
 install:
 - go get -v github.com/spf13/hugo
-- sudo pip install awscli
+- sudo pip install s3cmd
 script:
 - hugo
-- aws s3 sync docs/ s3://vvatanabe --delete --acl public-read
+- s3cmd --acl-public --delete-removed --no-progress sync public/ s3://blog.vvatanabe.com
 notifications:
   email:
     on_failure: always

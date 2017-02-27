@@ -1,9 +1,8 @@
 languageCode = "en-us"
-title = "Diary"
-baseURL = "https://vvatanabe.github.io/diary"
+title = "blog.vvatanabe.com"
+baseURL = "https://blog.vvatanabe.com"
 theme = "hugo-black-and-light-theme"
 canonifyurls = true
-publishDir = "docs"
 disqusShortname = "vvatanabe"
 
 [taxonomies]
@@ -14,7 +13,7 @@ tag = "tags"
   post = "post/:year/:month/:day/:title/"
 
 [params]
-  sitename = "Diary"
+  sitename = "blog.vvatanabe.com"
   author = "Yuichi Watanabe"
 
 [params.social]

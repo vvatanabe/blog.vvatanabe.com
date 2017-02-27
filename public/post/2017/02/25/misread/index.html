@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <base href="https://vvatanabe.com">
+    
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+
+    <title>
+      
+      
+         Misread 
+      
+    </title>
+    <link rel="canonical" href="https://vvatanabe.com/post/2017/02/25/misread/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    <link rel="shortcut icon" href="https://vvatanabe.com/favicon.ico">
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://vvatanabe.com/">vvatanabe.com</a></h1>
+      <div class="social">
+  <ul class="social-links">
+    
+      <li><a href="http://www.facebook.com/vvatanabe.ja"><i class="fa fa-facebook"></i></a></li>
+    
+
+    
+      <li><a href="http://twitter.com/vvatanabe_ja"><i class="fa fa-twitter"></i></a></li>
+    
+
+    
+      <li><a href="http://github.com/vvatanabe"><i class="fa fa-github"></i></a></li>
+    
+
+    
+      <li><a href="https://soundcloud.com/vvatanabe"><i class="fa fa-soundcloud"></i></a></li>
+    
+
+    
+
+    
+
+    
+      <li><a href="mailto:yuichi.watanabe.ja@gmail.com"><i class="fa fa-envelope"></i></a></li>
+    
+
+  </ul>
+</div>
+      <ul>
+        
+          <li><a href="https://vvatanabe.com/about/">About</a></li>
+        
+          <li><a href="https://vvatanabe.com/categories/">Categories</a></li>
+        
+          <li><a href="https://vvatanabe.com/tags/">Tags</a></li>
+        
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Misread </h1>
+
+  <div id=sub-header>
+    February 2017 · 1 minute read
+  </div>
+
+  
+  <div class="tags_list">
+     <span class="tags_item"><a href="https://vvatanabe.com/tags/baby/">baby</a></span> <span class="tags_item"><a href="https://vvatanabe.com/tags/childcare/">childcare</a></span> <span class="tags_item"><a href="https://vvatanabe.com/tags/backlog/">backlog</a></span>
+  </div>
+  
+
+  <div class="entry-content">
+    <p>I was going to go to the maternity school today. That school give some tips for those who are how to take care of their baby. For example they teach them how to wash the baby, for husband to experience how to be pregnant, experience how to take care of the baby and so on. My wife and I are looking forward to this lecture.</p>
+
+<p>We arrived at the school on time, but that school doors were close.</p>
+
+<p>Why is it close?</p>
+
+<p>My wife took out her iPhone and to confirm. Oops! I found that the schedule was different.</p>
+
+<p>We regretted the lack of schedule management. However, regretting won&rsquo;t solve problem. So I wrote this diary while I was at neighborhood cafe. I should manage some tasks related childcare with &ldquo;Backlog&rdquo; which is one of my company’s products. Hahaha.</p>
+
+<blockquote>
+<p>Backlog will make your daily tasks easier and more enjoyable, and lead your team to more enthusiasm for smoother project success.</p>
+</blockquote>
+
+<p>Please look at this: <a href="https://backlogtool.com">https://backlogtool.com</a></p>
+
+<p>Hey baby. Don&rsquo;t worry about it. I can assure you that taking a bath will turn out fine. Because I have a track record of keeping bathing for 30 years. Take it easy!</p>
+
+<p>Thanks！</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="https://vvatanabe.com/post/2017/02/23/how-to-set-up-the-hugo/">&laquo; How to set up the hugo</a>
+    
+    
+      <a class="basic-alignment left" href="https://vvatanabe.com/post/2017/02/26/happy-birthday-to-my-dad/">Happy birthday to my Dad &raquo;</a>
+    
+  </div>
+</section>
+
+  </div>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'vvatanabe';
+    var disqus_identifier = 'https:\/\/vvatanabe.com\/post\/2017\/02\/25\/misread\/';
+    var disqus_title = 'Misread';
+    var disqus_url = 'https:\/\/vvatanabe.com\/post\/2017\/02\/25\/misread\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+</body>
+</html>
+
+
+
