@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/vvatanabe/diary.svg?branch=master)](https://travis-ci.org/vvatanabe/vvatanabe.com)
+[![Build Status](https://travis-ci.org/vvatanabe/diary.svg?branch=master)](https://travis-ci.org/vvatanabe/blog.vvatanabe.com)
 
-## vvatanabe.com
+## blog.vvatanabe.com
 
 ## Introduce
 
@@ -23,7 +23,7 @@ Thanks!
 # Development
 
 ```
-$ git clone --recursive https://github.com/vvatanabe/vvatanabe.com.git
+$ git clone --recursive https://github.com/vvatanabe/blog.vvatanabe.com.git
 ```
 
 ```
