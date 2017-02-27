@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/vvatanabe/diary.svg?branch=master)](https://travis-ci.org/vvatanabe/blog.vvatanabe.com)
 
-## blog.vvatanabe.com
+# blog.vvatanabe.com
 
-## Introduce
+## Motivation
 
 Hi. I’m Yuichi Watanabe. Please call me Nabe. But why is my last name ends with “nabe?”
 
@@ -20,7 +20,7 @@ I believe Knowing about cultures in various countries will enrich our knowledge.
 
 Thanks!
 
-# Development
+## Development
 
 ```
 $ git clone --recursive https://github.com/vvatanabe/blog.vvatanabe.com.git
