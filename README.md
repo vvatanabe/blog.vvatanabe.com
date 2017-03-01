@@ -24,8 +24,13 @@ Thanks!
 
 ```
 $ git clone --recursive https://github.com/vvatanabe/blog.vvatanabe.com.git
-```
-
-```
 $ hugo server -D -w
 ```
+
+## Provision
+
+```
+$ cd ./infra
+$ terraform apply
+```
+
