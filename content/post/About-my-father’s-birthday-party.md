@@ -1,6 +1,6 @@
 +++
 date = "2017-02-23T22:10:20+09:00"
-title = "About my father's barthday party"
+title = "About my father's birthday party"
 draft = false
 categories = [ "diary" ]
 tags = [ "birthday", "family" ]
