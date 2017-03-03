@@ -14,7 +14,9 @@ I can do a little reading and writing using English. However, particularly speak
 
 So, I’ve started writing a blog in English!
 
-The contents are quite different from other blogs. Usually my topics are technology, work, Japanese sake, sumo wrestling, music, daily life activities and so on. If I make mistakes in my English, please pardon me. If you are an engineer, would you give me a pull request on Github please? I would like to communicate enjoyably with my colleagues using English as soon as possible.
+The contents are quite different from other blogs. Usually my topics are technology, work, Japanese sake, sumo wrestling, music, daily life activities and so on. If I make mistakes in my English, please pardon me. If you are an engineer, would you give me a pull request on Github please? https://github.com/vvatanabe/blog.vvatanabe.com
+
+I would like to communicate enjoyably with my colleagues using English as soon as possible.
 
 I believe Knowing about cultures in various countries will enrich our knowledge.
 
