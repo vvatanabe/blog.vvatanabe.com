@@ -17,6 +17,8 @@ There are 3 major reasons for choosing Hugo:
 
 ## Install the hugo.
 
+If you are using a Mac.
+
 ```
 $ brew install hugo
 ```
@@ -32,9 +34,8 @@ $ hugo new site ${site_name}
 ```
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/${user_id}/${repos_name}.git
+$ git submodule add https://github.com/${user_id}/${repos_name}.git
 ```
-
 
 ## Post articles.
 
@@ -63,5 +64,3 @@ publishDir = "${dir_path}" # Directory path to publish
 ```
 
 Thanks!
-
-
