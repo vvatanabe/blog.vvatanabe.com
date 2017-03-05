@@ -1,5 +1,7 @@
 +++
+title = "About this blog"
 draft = false
+eyecatch = "/images/default-eyecatch.png"
 +++
 
 Hi. I'm Yuichi Watanabe. Please call me Nabe.  But why is my last name ends with "nabe?”
