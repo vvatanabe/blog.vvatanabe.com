@@ -4,6 +4,7 @@ title = "About my father's birthday party"
 draft = false
 categories = [ "diary" ]
 tags = [ "birthday", "family" ]
+eyecatch = "images/default-eyecatch.png"
 +++
 
 My father turned 70 years old on Valentines Day because his birthday was February 14. I am planning to hold a birthday party for him this Sunday. The venue will be at a Chinese Restaurant located in Tenzin. The food in that restaurant is very delicious.

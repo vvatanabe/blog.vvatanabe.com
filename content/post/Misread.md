@@ -4,6 +4,7 @@ title = "Misread"
 draft = false
 categories = [ "diary" ]
 tags = [ "baby", "childcare", "backlog" ]
+eyecatch = "images/default-eyecatch.png"
 +++
 
 I was going to go to the maternity school today. That school give some tips for those who are how to take care of their baby. For example they teach them how to wash the baby, for husband to experience how to be pregnant, experience how to take care of the baby and so on. My wife and I are looking forward to this lecture.
