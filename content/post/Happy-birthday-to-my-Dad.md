@@ -4,7 +4,7 @@ title = "Happy birthday to my Dad"
 draft = false
 categories = [ "diary" ]
 tags = [ "birthday", "family" ]
-eyecatch = "images/father-birthday-cake.JPG"
+eyecatch = "/images/father-birthday-cake.JPG"
 +++
 
 We celebrated his birthday today. It’s the moment we’ve all been waiting for. We enjoyed small talks while eating Chinese dishes. We also drank a Chinese liquor named “Shao xing jiu” which tasted best with cube sugar in it.

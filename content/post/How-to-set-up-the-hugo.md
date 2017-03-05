@@ -4,7 +4,7 @@ title = "How to set up the hugo"
 draft = false
 categories = [ "technology" ]
 tags = [ "blog", "hugo" ]
-eyecatch = "images/hugo-logo.png"
+eyecatch = "/images/hugo-logo.png"
 +++
 
 ![hugo-logo](/images/hugo-logo.png "hugo-logo")

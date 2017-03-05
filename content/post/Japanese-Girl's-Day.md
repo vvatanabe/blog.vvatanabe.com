@@ -4,7 +4,7 @@ title = "Japanese Girl's Day"
 draft = false
 categories = [ "japanese traditional" ]
 tags = [ "hinamatsuri", "hina dolls" ]
-eyecatch = "images/hina-dolls.jpg"
+eyecatch = "/images/hina-dolls.jpg"
 +++
 
 It’s a party for my cousin's daughter today.

@@ -4,7 +4,7 @@ title = "Quickly publishing blogs with hugo to AWS"
 draft = false
 categories = [ "technology" ]
 tags = [ "hugo", "aws", "travis-ci", "teraform" ]
-eyecatch = "images/static-site-structure-diagram.png"
+eyecatch = "/images/static-site-structure-diagram.png"
 +++
 
 I will introduce a quick way to publish your blog with hugo.
