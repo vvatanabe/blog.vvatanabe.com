@@ -4,6 +4,7 @@ baseURL = "https://blog.vvatanabe.com"
 theme = "hugo-black-and-light-theme"
 canonifyurls = true
 disqusShortname = "vvatanabe"
+googleAnalytics = "UA-93081819-1"
 
 [taxonomies]
 category = "categories"
