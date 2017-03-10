@@ -69,6 +69,7 @@ script:
         --delete-removed \
         --add-header=Cache-Control max-age=${MAX_AGE_SEC},s-max-age=${S_MAX_AGE_SEC} \
         --no-progress sync public/ s3://${YOUR_BUCKET_NAME} \
+- aws configure set preview.cloudfront true
 - aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
 notifications:
   email:
