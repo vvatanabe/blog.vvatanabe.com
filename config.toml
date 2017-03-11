@@ -19,6 +19,9 @@ tag = "tags"
   eyecatch = "/images/default-eyecatch.png"
   description = "The contents are usually technology, work, Japanese sake, sumo wrestling, music, daily life activities and so on. If I make mistakes in my English, please pardon me. If you are an engineer, would you give me a pull request on Github please? https://github.com/vvatanabe/blog.vvatanabe.com"
 
+[params.share]
+  facebook_app_id = 964534250348303
+
 [params.social]
   Facebook = "vvatanabe.ja"
   Github = "vvatanabe"
