@@ -15,6 +15,7 @@ tag = "tags"
 
 [params]
   sitename = "blog.vvatanabe.com"
+  symbol_icon = "/mustache.svg"
   author = "Yuichi Watanabe"
   eyecatch = "/images/default-eyecatch.png"
   description = "The contents are usually technology, work, Japanese sake, sumo wrestling, music, daily life activities and so on. If I make mistakes in my English, please pardon me. If you are an engineer, would you give me a pull request on Github please? https://github.com/vvatanabe/blog.vvatanabe.com"
