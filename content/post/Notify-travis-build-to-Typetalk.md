@@ -15,7 +15,6 @@ https://www.typetalk.in/
 It receive Travis CI notifications using Webhook and use Google Apps Script as the receiving endpoint. Google Apps Script is free, fast and easy to use, so just right. The bot built on "Google Apps Script" parses the message from TravisCI and posts it to Typetalk.
 
 The following diagram that shows its flow. Its describe in detail.
-
 ![travis-typetalk-flow](/images/travis-typetalk-flow.png "travis-typetalk-flow")
 
 ## 1. Create a bot to get Typetalk Token.
