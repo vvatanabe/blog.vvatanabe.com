@@ -8,10 +8,12 @@ install:
 - sudo pip install awscli
 script:
 - hugo
-- s3cmd --acl-public --delete-removed --add-header=Cache-Control:max-age=3600,s-max-age=86400 --no-progress sync public/ s3://blog.vvatanabe.com
-- aws configure set preview.cloudfront true
-- aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
+# - s3cmd --acl-public --delete-removed --add-header=Cache-Control:max-age=3600,s-max-age=86400 --no-progress sync public/ s3://blog.vvatanabe.com
+# - aws configure set preview.cloudfront true
+# - aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
 notifications:
-  email:
-    recipients: yuichi.watanabe.ja@gmail.com
+  webhooks:
+    urls:
+      secure: eT6o7+oizN2H026ZLxzRlaYKXG0HxDX+VUn8cDR+D0IEnzp/wXyJQ4AvqnoU1xNEFajuKavF1hsZFgYtxQ+pU3D2SbFHR12dsryXnMPaOXwLImzv8oVyXTTkDFVIdvHTmB987p+2fvlZBkNj2tuh09+sgJBY4LU1A56cKqetO5Zc4pj7wXrLe06uIExZ29ZHYc3BGcxpUY+uy0JN+6U4N2sBf0VAJCMn/AeWwpt3xn4gFrIRP8kz6nX/Xwvm/9nmVk/E8tnMnqOZYmflzE53Tzy4S7/5T/Lzn42PV+EuPZfcSOohr9GKDx8+6BRmnmMHNtuM05F7+ts/covP5llkVQopBvL/EFxVz+Ip5uE6CvZwKE6KK7Hxf06y9iRtXedTfrxy2pYhyP3NwNAT4J59Fh9uoheDnBIe8k/TW0o2ODbtGaZmBuO/GthhkqUQa1wg2O0xwL07VMXC6TQ9pj3XQwRxiC0Dj1+WB2ODLOFtX1aofz9f7FQ/j53kkVgPnnSZztquHwt+qvZt5vYoUhqM8vaGkI8P9yHAakJxMUxCmVZpbgQn2+fSd1SQJqj9jbiU4UY3UIQTQ5HOdUzgT2ltKLfgrtIWzai2q8MQ5r+itMRHPW3ACRm2asDZQZbMtlGwXxlCXiiG85IpKGK3Lp+awg0cWUCLzM3fvNj+mZ4GN4I=
+    on_success: always
     on_failure: always
