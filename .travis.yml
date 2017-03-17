@@ -8,9 +8,9 @@ install:
 - sudo pip install awscli
 script:
 - hugo
-# - s3cmd --acl-public --delete-removed --add-header=Cache-Control:max-age=3600,s-max-age=86400 --no-progress sync public/ s3://blog.vvatanabe.com
-# - aws configure set preview.cloudfront true
-# - aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
+- s3cmd --acl-public --delete-removed --add-header=Cache-Control:max-age=3600,s-max-age=86400 --no-progress sync public/ s3://blog.vvatanabe.com
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths '/*'
 notifications:
   webhooks:
     urls:
